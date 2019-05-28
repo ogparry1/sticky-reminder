@@ -1,22 +1,19 @@
 {
-  "name": "electron-quick-start",
+  "name": "sticky-reminder",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
-  ],
-  "author": "GitHub",
+  "repository": "https://github.com/ogparry1/sticky-reminder",
+  "author": "ogparry1",
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^5.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
   }
 }
